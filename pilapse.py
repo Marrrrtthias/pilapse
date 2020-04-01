@@ -3,9 +3,9 @@ from datetime import datetime
 import os
 import picamera
 
-INTERVAL = 30
+INTERVAL = 10
 startDate = datetime.now()
-picDir = '~/pilapse/pilapses/' + startDate.strftime("%Y-%m-%d_%H-%M-%S") + '/'
+picDir = 'pilapses/' + startDate.strftime("%Y-%m-%d_%H-%M-%S") + '/'
 
 os.makedirs(picDir)
 
